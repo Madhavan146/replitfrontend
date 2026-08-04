@@ -339,7 +339,7 @@ export default function App() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="glitch-wrapper">
-              <span  data-text="TECHNOVANZA 2026">
+              <span className="glitch-tet" data-text="TECHNOVANZA 2026">
                 TECHNO<span className="tech">VANZA</span> 2026
               </span>
             </h1>
@@ -416,7 +416,8 @@ export default function App() {
             transition={{ delay: 0.8 }}
             className="hero-cta"
           >
-            <a href="#contact" className="btn">Download Rules PDF</a>
+            <a href="#contact" className="btn">Download the Rules PDF</a>
+            {/* <a href="#technical" className="btn-outline">View Events</a> */}
           </motion.div>
         </div>
       </section>
@@ -429,7 +430,7 @@ export default function App() {
           viewport={{ once: true }}
           className="section-head"
         >
-          //<p className="eyebrow">// Technical Track</p>
+          <p className="eyebrow">// Technical Track</p>
           <h2>Technical <span>Events</span></h2>
           <p>Four arenas to prove your engineering edge. Tap a card to unlock the brief.</p>
         </motion.div>
