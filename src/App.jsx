@@ -339,7 +339,7 @@ export default function App() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="glitch-wrapper">
-              <span className="glitch-tet" data-text="TECHNOVANZA 2026">
+              <span  data-text="TECHNOVANZA 2026">
                 TECHNO<span className="tech">VANZA</span> 2026
               </span>
             </h1>
@@ -417,7 +417,6 @@ export default function App() {
             className="hero-cta"
           >
             <a href="#contact" className="btn">Download Rules PDF</a>
-       //     <a href="#technical" className="btn-outline">View Events</a>
           </motion.div>
         </div>
       </section>
